@@ -27,8 +27,8 @@ cd training-data-analyst/courses/bdml_fundamentals
 ```
 * Go to the Storage | Browser in the Cloud Console or AWS Console and create a new bucket
 * Copy the files
- ```gsutil cp earthquakes.* gs://[YOURBUCKET]```
 
+ ```gsutil cp earthquakes.* gs://[YOURBUCKET]```
 
  ```awscli s3 cp earthquakes.* s3://[YOURBUCKET]```
 - Note: Do not forget to setup awscli and configuration to reach awscli 
